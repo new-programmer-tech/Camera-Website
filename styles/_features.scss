@@ -1,0 +1,69 @@
+.feature-container{
+    background-color: #323232;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.wave{
+    position:absolute;
+    left:0;
+    top:50%;
+    width:100%;
+    z-index: -1;
+   
+}
+
+.features{
+    min-height: 90vh;
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+ 
+}
+
+.cards{
+    display: flex;
+    justify-content:space-around;
+    color: black;
+}
+
+.features h2{
+    align-self: flex-start;
+}
+
+
+.card 
+{
+    background:#fff;
+    margin: 0rem 5.5rem;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    border-radius:2rem;
+    overflow:hidden; 
+     
+}
+
+.card h4
+{
+    margin :1.5rem 0 1rem 0;
+    font-size:2.6rem;
+    font-weight: bolder;
+} 
+
+.card p
+{
+    padding:2rem;
+    font-size:1.7rem;
+    line-height:1;
+}
+
+.card img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+

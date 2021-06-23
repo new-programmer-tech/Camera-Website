@@ -1,0 +1,33 @@
+.soon{
+    background-color: #323232;
+    position: relative;
+    min-width: 80vh;
+    z-index: 0;
+
+    
+}
+
+.circle
+{
+    position:absolute;
+    bottom:1%;
+    left: 30%;
+    height: 95vh;
+    
+    
+}
+ 
+.soon-img{
+    height:100vh;
+    position: relative;
+    z-index: 1;
+    left:24%;
+}
+
+.soon h2{
+    position: absolute;
+    left: 41%;
+    top: 15%;
+    z-index: 1;
+   
+}
