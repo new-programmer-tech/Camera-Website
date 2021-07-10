@@ -29,3 +29,30 @@
     top: 15%;
     z-index: 1;  
 }
+
+
+@media screen and (max-width: 800px)
+.soon-img {
+    height: 47vh;
+    position: relative;
+    z-index: 1;
+    left: 24%;
+    bottom: -14px;
+}
+
+@media screen and (max-width: 800px)
+.circle {
+    position: absolute;
+    bottom: -1%;
+    left: 28%;
+    height: 48vh;
+}
+
+
+@media screen and (max-width: 800px)
+.soon h2 {
+    position: absolute;
+    left: 32%;
+    top: 11%;
+    z-index: 1;
+}
